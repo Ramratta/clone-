@@ -1,4 +1,3 @@
-import React from "react";
 import "./Section.css";
 import Section1 from "./Section1";
 
