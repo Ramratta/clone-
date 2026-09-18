@@ -1,16 +1,82 @@
-# React + Vite
+# Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A homepage clone built with React and Vite, featuring a navbar, hero section, content sections, and footer.
 
-Currently, two official plugins are available:
+## 🚀 Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **React.js** – UI library
+- **Vite** – Build tool and dev server
+- **CSS** – Component-level styling
 
-## React Compiler
+## 📁 Project Structure
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```
+clone/
+├── src/
+│   ├── Component/
+│   │   ├── Navbar.jsx / Navbar.css
+│   │   ├── Hero.jsx / Hero.css
+│   │   ├── Home.jsx
+│   │   ├── Section.jsx / Section.css
+│   │   ├── Section1.jsx / Section1.css
+│   │   └── Footer.jsx / Footer.css
+│   ├── App.jsx
+│   ├── App.css
+│   └── main.jsx
+├── index.html
+├── package.json
+└── vite.config.js
+```
 
-## Expanding the Oxlint configuration
+## 🛠️ Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+### Prerequisites
+
+- Node.js (v16 or higher recommended)
+- npm
+
+### Installation
+
+1. Clone the repository
+   ```bash
+   git clone https://github.com/Ramratta/clone-.git
+   cd clone-
+   ```
+
+2. Install dependencies
+   ```bash
+   npm install
+   ```
+
+3. Start the development server
+   ```bash
+   npm run dev
+   ```
+
+4. Open your browser and visit the local URL shown in the terminal (usually `http://localhost:5173`)
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+The optimized production build will be generated in the `dist/` folder.
+
+## ✨ Features
+
+- Navigation bar
+- Hero section with call-to-action
+- Multiple content sections
+- Footer with relevant links/info
+
+> Note: This currently covers the homepage only. Responsive design and additional pages are not yet implemented.
+
+## 📄 License
+
+This project is open source and available for personal/educational use.
+
+## 👤 Author
+
+**Ram Ratan Pandey**
+- GitHub: [@Ramratta](https://github.com/Ramratta)
