@@ -1,0 +1,427 @@
+.section1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 30px 5%;
+  background: #171614;
+  color: #fff;
+}
+
+.section1p1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 250px;
+  min-height: 135px;
+  border-right: 1px solid rgba(245, 130, 32, 0.16);
+  text-align: center;
+}
+
+.section1p1:last-child {
+  border-right: 0;
+}
+
+.section1p1 strong {
+  color: #f58220;
+  font-size: 52px;
+  line-height: 1;
+}
+
+.section1p1 h3 {
+  margin: 14px 0 6px;
+  font-size: 12px;
+}
+
+.section1p1 p {
+  color: #777;
+  font-size: 10px;
+}
+
+.testimonial-section {
+  position: relative;
+  min-height: 420px;
+  padding: 70px 10% 54px;
+  overflow: hidden;
+  background:
+    linear-gradient(rgba(16, 16, 15, 0.72), rgba(16, 16, 15, 0.86)),
+    url("https://achieversbuilders.com/images/project_image.webp") center /
+      cover;
+  color: #fff;
+  text-align: center;
+}
+
+.testimonial-kicker,
+.testimonial-label {
+  position: absolute;
+  top: 78px;
+  margin: 0;
+  color: #fff;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+.testimonial-kicker {
+  left: 7%;
+}
+
+.testimonial-label {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.testimonial-section h2 {
+  max-width: 560px;
+  margin: 34px auto 30px;
+  font-family: Georgia, serif;
+  font-size: 36px;
+  line-height: 1.05;
+}
+
+.testimonial-section h2 em {
+  display: block;
+  color: #f58220;
+  font-weight: 400;
+}
+
+.testimonial-mark {
+  display: block;
+  color: #f58220;
+  font-size: 28px;
+  line-height: 1;
+}
+
+.testimonial-section blockquote {
+  max-width: 900px;
+  margin: 16px auto 20px;
+  font-family: Georgia, serif;
+  font-size: 16px;
+  font-style: italic;
+  line-height: 1.4;
+}
+
+.testimonial-person {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  text-align: left;
+}
+
+.testimonial-avatar {
+  display: grid;
+  width: 32px;
+  height: 32px;
+  place-items: center;
+  border-radius: 50%;
+  background: #f58220;
+  color: #171614;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.testimonial-person strong,
+.testimonial-person small {
+  display: block;
+}
+
+.testimonial-person strong {
+  font-size: 10px;
+}
+
+.testimonial-person small {
+  margin-top: 3px;
+  color: #f58220;
+  font-size: 8px;
+}
+
+.testimonial-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  margin-top: 25px;
+}
+
+.testimonial-controls button {
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  border-radius: 50%;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+
+.testimonial-controls button:not(:first-child):not(:last-child) {
+  width: 7px;
+  height: 7px;
+  border: 0;
+  background: rgba(255, 255, 255, 0.45);
+}
+
+.testimonial-controls button.is-active {
+  background: #f58220;
+}
+
+.story-section {
+  padding: 52px 6% 58px;
+  background:
+    linear-gradient(rgba(10, 10, 9, 0.8), rgba(10, 10, 9, 0.88)),
+    url("https://achieversbuilders.com/images/project_image.webp") center /
+      cover;
+  color: #fff;
+  text-align: center;
+}
+
+.story-years {
+  display: block;
+  color: #f58220;
+  font-size: 120px;
+  line-height: 1;
+}
+
+.story-section h2 {
+  margin: 20px auto 22px;
+  font-size: 48px;
+  font-weight: 400;
+}
+
+.story-section h2 em {
+  color: #f58220;
+  font-weight: 400;
+}
+
+.story-section > p {
+  margin-inline: auto;
+  color: #c9d5df;
+  font-size: 17px;
+}
+
+.story-actions {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  margin-top: 48px;
+}
+
+.story-actions button {
+  padding: 22px 30px;
+  border: 1px solid #f58220;
+  background: transparent;
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: 1s ease-in-out;
+}
+.story-actions button:hover {
+  box-shadow: orange 0px 20px 30px -10px;
+  cursor: pointer;
+  transform: translateY(-5px);
+  color: white;
+}
+.story-actions button:last-child:hover {
+  background-color: rgb(0, 0, 0, 0.1);
+  background: transparent;
+  color: white;
+  box-shadow: none !important;
+}
+.story-actions button:last-child {
+  background-color: rgb(0, 0, 0, 0.7);
+  color: white;
+}
+
+.story-actions button:first-child {
+  background: #f58220;
+  color: #171614;
+}
+
+.story-actions span {
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.section3 {
+  display: flex;
+  gap: 2%;
+  padding: 60px 5.8%;
+  background-color: #fff;
+  background-image: linear-gradient(
+    45deg,
+    transparent 49%,
+    rgba(196, 174, 133, 0.16) 50%,
+    transparent 51%
+  );
+  background-size: 140px 140px;
+  color: #111;
+}
+
+.sectionimg {
+  width: 50%;
+  border: 2px violet solid;
+  min-height: 627px;
+  background: url("https://achieversbuilders.com/images/about%20section%20image.webp")
+    center / cover;
+}
+
+.section-content {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  justify-content: center;
+  padding: 8%;
+  text-align: center;
+}
+
+.section-content h2 {
+  margin-inline: auto;
+  margin-bottom: 28px;
+  font-size: 41px;
+  line-height: 1.04;
+}
+
+.section-content h2 em {
+  display: block;
+  font-weight: 400;
+}
+
+.section-content p {
+  max-width: 650px;
+  margin-inline: auto;
+  font-size: 17px;
+  line-height: 1.65;
+}
+
+.section4 {
+  display: flex;
+  justify-content: space-evenly;
+  background:
+    linear-gradient(rgba(89, 62, 42, 0.4), rgba(89, 62, 42, 0.58)),
+    url("https://achieversbuilders.com/images/project_image.webp") center /
+      cover;
+  color: #fff;
+}
+
+.section4p1 {
+  align-self: center;
+  padding: 70px 8%;
+  width: 60%;
+}
+
+.section4p1 > strong {
+  display: block;
+  color: #f58220;
+  font-size: 120px;
+  line-height: 0.9;
+}
+
+.section4p1 h2 {
+  margin: 28px 0;
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 1.15;
+}
+
+.section4p1 em {
+  display: block;
+  font-weight: 400;
+}
+
+.section4p1 p {
+  margin-bottom: 34px;
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+.section4p1 button {
+  padding: 20px 40px;
+  border: none;
+  background: #f58220;
+  color: #171614;
+  font-size: 16px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: 1s ease-in-out;
+}
+.section4p1 button:hover {
+  box-shadow: orange 0px 20px 30px -10px;
+  cursor: pointer;
+  transform: translateY(-5px);
+  color: white;
+}
+
+.section4p1 button span {
+  margin-left: 14px;
+  font-size: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: white;
+  border-radius: 10px;
+  width: 75%;
+  height: 75%;
+}
+.hero1 {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.hero1 input {
+  width: 85%;
+  padding: 10px;
+  border: 2px solid rgb(128, 125, 125);
+  border-radius: 10px;
+  height: 50px;
+}
+.hero1 input:hover {
+  outline: none;
+  border: 2px solid rgb(128, 125, 125);
+}
+.hero1 input:focus {
+  outline: none;
+  border: 2px solid rgb(128, 125, 125);
+}
+.hero1 textarea:focus {
+  outline: none;
+  border: 2px solid rgb(128, 125, 125);
+}
+.hero1 input::placeholder {
+  font-size: 20px;
+}
+.hero1 textarea {
+  width: 85%;
+  padding: 10px;
+  border: 2px solid rgb(128, 125, 125);
+  border-radius: 10px;
+  height: 70px;
+}
+.hero1 textarea::placeholder {
+  font-size: 20px;
+}
+.hero1 button {
+  width: 85%;
+  height: 45px;
+  border-radius: 10px;
+  background-color: orange;
+  color: black;
+  font-size: 20px;
+  border: none;
+}
+.hero1 button:hover {
+  cursor: pointer;
+  background-color: orange;
+  color: white;
+}

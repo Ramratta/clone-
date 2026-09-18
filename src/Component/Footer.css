@@ -1,0 +1,123 @@
+.top-foot {
+  height: 100%;
+  width: 100%;
+  background:
+    linear-gradient(rgba(15, 15, 14, 0.93), rgba(15, 15, 14, 0.96)),
+    url("https://achieversbuilders.com/images/project_image.webp");
+  color: #fff;
+}
+
+.footer-m {
+  display: grid;
+  grid-template-columns: 1.3fr 0.8fr 1fr 1.5fr;
+  gap: 70px;
+  padding-top: 70px;
+  padding-inline: 6%;
+  padding-bottom: 64px;
+}
+
+.footer-sm img {
+  width: 150px;
+  margin-bottom: 22px;
+}
+
+.footer-sm p {
+  max-width: 310px;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.social {
+  display: flex;
+  gap: 12px;
+  margin-top: 26px;
+}
+
+.social p {
+  display: flex;
+  width: 38px;
+  height: 38px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(245, 130, 32, 0.35);
+  color: #f58220;
+  text-decoration: none;
+}
+.social p:hover {
+  cursor: pointer;
+  color: black;
+  background-color: #f58220;
+}
+
+.column1 {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+
+.column1 h2 {
+  color: #f58220;
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 4px;
+}
+
+.column1 p {
+  font-size: 16px;
+  line-height: 1.45;
+}
+
+.column1 p:hover {
+  cursor: pointer;
+  color: #f58220;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+.contact h2 {
+  color: #f58220;
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 4px;
+}
+
+.contact p {
+  font-size: 17px;
+  display: flex;
+  gap: 10px;
+  color: #f58220;
+}
+
+.contact p span {
+  color: #fff;
+}
+
+.last {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  color: #fff;
+  font-size: 14px;
+  padding-top: 14px;
+  padding-bottom: 20px;
+  padding-inline: 6%;
+}
+.last div {
+  display: flex;
+  gap: 28px;
+}
+
+.last p {
+  color: #777;
+  text-decoration: none;
+}
+.p {
+  cursor: pointer;
+}
+.p p:hover {
+  color: #f58220;
+}
